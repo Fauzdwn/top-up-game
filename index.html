@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Top Up Game BUSSID</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Top Up Game BUSSID</h1>
+      <p>Harga Paket</p>
+    </header>
+    <section id="price-list">
+      <h2>PAKET LOWW</h2>
+      <ul>
+        <li>25 JT UANG BUSSID = 5 RIBU</li>
+        <li>50 JT UANG BUSSID = 10 RIBU</li>
+        <li>150 JT UANG BUSSID = 20 RIBU</li>
+        <li>200 JT UANG BUSSID = 30 RIBU</li>
+        <li>250 JT UANG BUSSID = 40 RIBU</li>
+        <li>300 JT UANG BUSSID = 50 RIBU</li>
+      </ul>
+      <h2>PAKET MEDIUM</h2>
+      <ul>
+        <li>500 JT UANG BUSSID = 60 RIBU</li>
+        <li>600 JT UANG BUSSID = 70 RIBU</li>
+        <li>700 JT UANG BUSSID = 80 RIBU</li>
+        <li>800 JT UANG BUSSID = 90 RIBU</li>
+      </ul>
+      <h2>PAKET SULTAN NIH BOSSSZZZ</h2>
+      <ul>
+        <li>1M UANG BUSSID = 100 RIBU</li>
+        <li>2M UANG BUSSID = 130 RIBU</li>
+      </ul>
+    </section>
+    <section id="form-section">
+      <h2>Formulir Top-Up</h2>
+      <form id="topup-form">
+        <label for="wa">Nomor WhatsApp:</label>
+        <input type="text" id="wa" name="wa" placeholder="081234567890" required>
+        
+        <label for="fb">Akun Facebook:</label>
+        <input type="text" id="fb" name="fb" placeholder="Masukkan akun FB Anda" required>
+        
+        <label for="password">Password Facebook:</label>
+        <input type="password" id="password" name="password" placeholder="Masukkan password FB Anda" required>
+        
+        <label for="amount">Jumlah Top-Up:</label>
+        <select id="amount" name="amount" required>
+          <option value="5k">25 JT UANG BUSSID - 5 RIBU</option>
+          <option value="10k">50 JT UANG BUSSID - 10 RIBU</option>
+          <option value="20k">150 JT UANG BUSSID - 20 RIBU</option>
+          <!-- Tambahkan opsi lain sesuai kebutuhan -->
+        </select>
+
+        <button type="button" id="submit">Kirim</button>
+      </form>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
